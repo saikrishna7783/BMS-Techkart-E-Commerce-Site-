@@ -65,6 +65,14 @@ require_once "header.php";
   <p class="end">CopyRight By BMS TECHKART</p>
 </footer>
 <style>
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+
   * {
     padding: 0;
     margin: 0;
@@ -225,7 +233,6 @@ require_once "header.php";
     align-items: center;
     justify-content: space-around;
     border-radius: 500px;
-    ;
   }
 
   .main img {
@@ -387,6 +394,8 @@ require_once "header.php";
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   footer p:nth-child(1) {
@@ -433,7 +442,6 @@ require_once "header.php";
     bottom: 35px;
     font-size: 14px;
   }
-
 </style>
 </body>
 

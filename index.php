@@ -75,8 +75,8 @@ require_once "header.php";
         </div>
       </div>
     </div>
-
   </section>
+
   <section class=" container1 section-3 ">
     <h1 class=" title justify-center item-center flex"> TOP SELLING</h1>
     <div class=" featured">
@@ -88,48 +88,48 @@ require_once "header.php";
             <h4>boat headphones </h4>
             <p>price:&#8377;3,590</p>
           </a>
-
         </div>
+
         <div class=" hover img-5">
           <a style="color: black;" href="p2.php">
             <img src="img/13.jpg" alt="">
             <h4>Realme Narzo 50i</h4>
             <p>price:&#8377;9,999</p>
           </a>
-
         </div>
+
         <div class=" hover img-8">
           <a style="color: black;" href="l8.php">
             <img src="img/l6.webp" alt="">
             <h4>HP Pavilion </h4>
             <p>price:&#8377;3,590</p>
           </a>
-
         </div>
+
         <div class=" hover img-7">
           <a style="color: black;" href="p5.php">
             <img src="img/15.jpg" alt="">
             <h4>Apple iPhone 14 128GB </h4>
             <p>price:&#8377;77,400</p>
           </a>
-        </div> -->
-      </div>
+        </div> 
+
       <div class="hover img-4">
         <a style="color: black;" href="h7.php">
           <img src="img/h5.jpg" alt="">
           <h4>Motorola escape 220</h4>
           <p>price:&#8377;4,990.</p>
         </a>
-
       </div>
+
       <div class="hover img-4">
         <a style="color: black;" href="l6.php">
           <img src="img/17.jpg" alt="">
           <h4>ASUS ROG Strix G17, 17.3-inch </h4>
           <p>price:&#8377;89,990</p>
         </a>
-
       </div>
+
       <div class="hover img-4">
         <a style="color: black;" href="h6.php">
           <img src="img/h4.jfif" alt="">
@@ -137,13 +137,13 @@ require_once "header.php";
           <p>price:&#8377;9,990</p>
         </a>
       </div>
+
       <div class="hover img-4">
         <a style="color: black;" href="p4.php">
           <img src="img/m4.jpg" alt="">
           <h4>Xiaomi 12 Pro 5G</h4>
           <p>price:&#8377;59,999</p>
         </a>
-
       </div>
 
     </div>
