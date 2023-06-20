@@ -81,7 +81,7 @@ require_once "header.php";
 
 
 <script>
-   const cartTable = document.getElementById('cart');
+  const cartTable = document.getElementById('cart');
   const total = document.getElementById('total');
   const checkoutButton = document.querySelector('.checkout-button');
 
@@ -96,7 +96,7 @@ require_once "header.php";
 
     if (cart.length === 0) {
       checkoutButton.style.display = 'none';
-     console.log("catt is empty");
+      console.log("cart is empty");
     } else {
       checkoutButton.style.display = 'inline-block';
     }

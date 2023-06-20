@@ -75,27 +75,23 @@
 
 <script>
     document.getElementById("submitBtn").addEventListener("click", function(event) {
-        var fullname = document.getElementById("fullname").value;
-        var email = document.getElementById("email").value;
-        var tel = document.getElementById("tel").value;
-        var address = document.getElementById("address").value;
-        var upi_id = document.getElementById("upi_id").value;
+    var fullname = document.getElementById("fullname").value;
+    var email = document.getElementById("email").value;
+    var tel = document.getElementById("tel").value;
+    var address = document.getElementById("address").value;
+    var upi_id = document.getElementById("upi_id").value;
 
-        if (!fullname || !email || !tel || !address || !upi_id) {
-            alert("All fields are required!");
-            event.preventDefault();
-        }
-        if(fullname && email && tel && address && upi_id) {
-            document.getElementById("submitBtn").addEventListener("click", function() {
-                alert("Order Confirmed");
-            });
+    if (!fullname || !email || !tel || !address || !upi_id) {
+        alert("All fields are required!");
+        event.preventDefault();
+    } else {
+        alert("Order Submitted Successfully!");
+        localStorage.removeItem("cart");
+    }
+});
 
-            document.getElementById("submitBtn").addEventListener("click", function() {
-                localStorage.removeItem("cart");
-            });
-        }
-    });
 </script>
+<script src="cart.js"></script>
 <script>
   const upiIdInput = document.getElementById("upi_id");
   const upiIdError = document.getElementById("upi_id_error");

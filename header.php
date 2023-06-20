@@ -49,6 +49,5 @@ session_start();
                 }
                 ?>
 
-                <script src="cart.js"></script>
             </ul>
         </header>
