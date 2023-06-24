@@ -3,7 +3,7 @@ require_once "header.php";
 ?>
 
 <head>
-  <title>Home | BMS TechKart</title>
+  <title>Home | BMS-TechKart</title>
 </head>
 
 <div class="banner">
