@@ -1,3 +1,5 @@
+-- Make sure you have installed 'sudo apt install php-mysqli'
+
 show databases;
 create database WebDevProject;
 use WebDevProject;
