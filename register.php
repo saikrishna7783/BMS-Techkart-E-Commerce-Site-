@@ -19,9 +19,9 @@ if ($_GET["error"] == "invalidemail") {
     <?php
     if (isset($_GET["error"])) {
       if ($_GET["error"] == "passwordsdontmatch") {
-        echo "<p>Passwords dont match!</p>";
+        echo "<script>alert('Passwords dont match');</script>";
       } else if ($_GET["error"] == "userexists") {
-        echo "Account already exists!";
+        echo "<script>alert('Account already exists');</script>";
       } else if ($_GET["error"] == "none") {
         $error = "none";
         header("location:login.php?error=" . $error);

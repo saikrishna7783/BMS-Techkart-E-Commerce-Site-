@@ -138,7 +138,7 @@ if (isset($_POST['submit'])) {
     if (mysqli_query($conn, $sql)) {
         echo "   ";
     } else {
-        echo "Error inserting data: " . mysqli_error($conn);
+        echo '<script>alert("Error inserting data: ' . mysqli_error($conn) . '");</script>';
     }
 
     // Close the connection

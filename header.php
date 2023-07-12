@@ -39,7 +39,7 @@ session_start();
                 }
 
                 if (isset($_GET["error"]) && $_GET["error"] == "none") {
-                    echo "<p>Successful Signin!</p>";
+                    echo "<script>alert('Successful Signin');</script>";
                 }
 
                 if (isset($_SESSION["email_id"])) {

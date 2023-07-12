@@ -2,7 +2,7 @@
 require_once "header.php";
 if (isset($_GET['error'])) {
     $error = $_GET['error'];
-    echo '<center>' . $error . '</center>';
+    echo '<script>alert("' . $error . '");</script>';
 }
 
 if (isset($_GET["error"])) {
