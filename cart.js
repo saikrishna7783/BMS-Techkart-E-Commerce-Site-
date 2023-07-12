@@ -2,7 +2,7 @@ const cartTable = document.getElementById('cart');
 const total = document.getElementById('total');
 const checkoutButton = document.querySelector('.checkout-button');
 
-window.addEventListener('load', function() {
+window.addEventListener('load', function () {
   updateCart();
 });
 
@@ -13,12 +13,12 @@ function updateCart() {
 
   if (cart.length === 0) {
     checkoutButton.style.display = 'none';
-   console.log("catt is empty");
+    console.log("catt is empty");
   } else {
     checkoutButton.style.display = 'inline-block';
   }
 
-  cart.forEach(function(product, index) {
+  cart.forEach(function (product, index) {
     tableRows += `
     <tr>
       <td>

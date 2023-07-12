@@ -22,7 +22,7 @@ require_once "header.php";
                             <li> excellent audio performance</li>
                         </ul>
                         </p>
-                        <br> 
+                        <br>
                         <br>
                         <br>
 

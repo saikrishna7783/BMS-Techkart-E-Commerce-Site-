@@ -22,7 +22,7 @@ require_once "header.php";
                             <li> good Battery backup .</li>
                         </ul>
                         </p>
-                        <br> 
+                        <br>
                         <br>
                         <br>
 

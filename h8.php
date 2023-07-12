@@ -22,7 +22,7 @@ require_once "header.php";
                             <li>easy to carry anywhere</li>
                         </ul>
                         </p>
-                        <br> 
+                        <br>
                         <br>
                         <br>
 

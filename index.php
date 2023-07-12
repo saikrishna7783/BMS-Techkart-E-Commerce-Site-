@@ -112,48 +112,50 @@ require_once "header.php";
             <h4>Apple iPhone 14 128GB </h4>
             <p>price:&#8377;77,400</p>
           </a>
-        </div> 
+        </div>
 
-      <div class="hover img-4">
-        <a style="color: black;" href="h7.php">
-          <img src="img/h5.jpg" alt="">
-          <h4>Motorola escape 220</h4>
-          <p>price:&#8377;4,990.</p>
-        </a>
+        <div class="hover img-4">
+          <a style="color: black;" href="h7.php">
+            <img src="img/h5.jpg" alt="">
+            <h4>Motorola escape 220</h4>
+            <p>price:&#8377;4,990.</p>
+          </a>
+        </div>
+
+        <div class="hover img-4">
+          <a style="color: black;" href="l6.php">
+            <img src="img/17.jpg" alt="">
+            <h4>ASUS ROG Strix G17, 17.3-inch </h4>
+            <p>price:&#8377;89,990</p>
+          </a>
+        </div>
+
+        <div class="hover img-4">
+          <a style="color: black;" href="h6.php">
+            <img src="img/h4.jfif" alt="">
+            <h4>EK-MH7 active noise cancelling</h4>
+            <p>price:&#8377;9,990</p>
+          </a>
+        </div>
+
+        <div class="hover img-4">
+          <a style="color: black;" href="p4.php">
+            <img src="img/m4.jpg" alt="">
+            <h4>Xiaomi 12 Pro 5G</h4>
+            <p>price:&#8377;59,999</p>
+          </a>
+        </div>
+
       </div>
-
-      <div class="hover img-4">
-        <a style="color: black;" href="l6.php">
-          <img src="img/17.jpg" alt="">
-          <h4>ASUS ROG Strix G17, 17.3-inch </h4>
-          <p>price:&#8377;89,990</p>
-        </a>
-      </div>
-
-      <div class="hover img-4">
-        <a style="color: black;" href="h6.php">
-          <img src="img/h4.jfif" alt="">
-          <h4>EK-MH7 active noise cancelling</h4>
-          <p>price:&#8377;9,990</p>
-        </a>
-      </div>
-
-      <div class="hover img-4">
-        <a style="color: black;" href="p4.php">
-          <img src="img/m4.jpg" alt="">
-          <h4>Xiaomi 12 Pro 5G</h4>
-          <p>price:&#8377;59,999</p>
-        </a>
-      </div>
-
     </div>
+
+  </section>
 </div>
 
-</section>
-</div>
 <footer>
   <p>Copyright &copy; BMSTechKart.com </p>
 </footer>
+
 </main>
 </body>
 

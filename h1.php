@@ -23,7 +23,7 @@ require_once "header.php";
                             <li>Very stable fit.</li>
                         </ul>
                         </p>
-                        <br> 
+                        <br>
                         <br>
                         <br>
 

@@ -1,13 +1,13 @@
 <?php
 require_once "header.php";
 ?>
+
 <section>
     <div class="container">
         <div class="row">
             <div class="col1">
                 <div class="product">
                     <img src="img/l4.webp" alt="product" width="100%">
-
                     <div class="col2">
                         <h1>MSI Gaming GF63 Thin, 11th Gen</h1>
                         <h4>INR 69990 Rupees</h4>
@@ -22,23 +22,24 @@ require_once "header.php";
                             <li> 1.86Kg </li>
                         </ul>
                         </p>
-                        <br> 
                         <br>
                         <br>
-
+                        <br>
                         <br>
                         <button id="add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
+
 <footer>
     <p>Copyright &copy; BMSTechKart.com </p>
 </footer>
+
 </main>
+
 <style>
     * {
         box-sizing: border-box;
@@ -79,6 +80,7 @@ require_once "header.php";
         border-radius: 30px;
     }
 </style>
+
 <script>
     const addToCartButton = document.getElementById("add-to-cart");
     addToCartButton.addEventListener("click", function() {
@@ -96,6 +98,7 @@ require_once "header.php";
         alert("Item added to cart!");
     });
 </script>
+
 </body>
 
 </html>

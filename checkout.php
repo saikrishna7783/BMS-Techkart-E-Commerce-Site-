@@ -1,7 +1,6 @@
 <head>
     <title>Checkout Page</title>
     <style>
-       
         form {
             width: 50%;
             margin: 30px auto;
@@ -54,18 +53,14 @@
         <input type="email" id="email" name="email" required>
 
         <label for="tel">Telephone:</label>
-<input type="tel" id="tel" size="13" name="tel" required minlength="10" maxlength="10">
-
-
+        <input type="tel" id="tel" size="13" name="tel" required minlength="10" maxlength="10">
 
         <label for="address">Address:</label>
         <textarea id="address" name="address" required></textarea>
 
-        
         <label for="upi_id">UPI ID:</label>
-<input type="text" id="upi_id" name="upi_id" required>
-<span id="upi_id_error" style="color:red;"></span>
-
+        <input type="text" id="upi_id" name="upi_id" required>
+        <span id="upi_id_error" style="color:red;"></span>
 
         <input id="submitBtn" type="submit" name="submit" value="Submit">
     </form>
@@ -75,43 +70,42 @@
 
 <script>
     document.getElementById("submitBtn").addEventListener("click", function(event) {
-    var fullname = document.getElementById("fullname").value;
-    var email = document.getElementById("email").value;
-    var tel = document.getElementById("tel").value;
-    var address = document.getElementById("address").value;
-    var upi_id = document.getElementById("upi_id").value;
+        var fullname = document.getElementById("fullname").value;
+        var email = document.getElementById("email").value;
+        var tel = document.getElementById("tel").value;
+        var address = document.getElementById("address").value;
+        var upi_id = document.getElementById("upi_id").value;
 
-    if (!fullname || !email || !tel || !address || !upi_id) {
-        alert("All fields are required!");
-        event.preventDefault();
-    } else {
-        alert("Order Submitted Successfully!");
-        localStorage.removeItem("cart");
-    }
-});
-
+        if (!fullname || !email || !tel || !address || !upi_id) {
+            alert("All fields are required!");
+            event.preventDefault();
+        } else {
+            alert("Order Submitted Successfully!");
+            localStorage.removeItem("cart");
+        }
+    });
 </script>
+
 <script src="cart.js"></script>
+
 <script>
-  const upiIdInput = document.getElementById("upi_id");
-  const upiIdError = document.getElementById("upi_id_error");
+    const upiIdInput = document.getElementById("upi_id");
+    const upiIdError = document.getElementById("upi_id_error");
 
-  upiIdInput.addEventListener("input", function(event) {
-    const upiId = event.target.value.trim();
-    if (upiId.length === 0) {
-      upiIdError.textContent = "UPI ID is required";
-      upiIdInput.setCustomValidity("UPI ID is required");
-    } else if (!upiId.includes("@")) {
-      upiIdError.textContent = "Invalid UPI ID format";
-      upiIdInput.setCustomValidity("Invalid UPI ID format");
-    } else {
-      upiIdError.textContent = "";
-      upiIdInput.setCustomValidity("");
-    }
-  });
+    upiIdInput.addEventListener("input", function(event) {
+        const upiId = event.target.value.trim();
+        if (upiId.length === 0) {
+            upiIdError.textContent = "UPI ID is required";
+            upiIdInput.setCustomValidity("UPI ID is required");
+        } else if (!upiId.includes("@")) {
+            upiIdError.textContent = "Invalid UPI ID format";
+            upiIdInput.setCustomValidity("Invalid UPI ID format");
+        } else {
+            upiIdError.textContent = "";
+            upiIdInput.setCustomValidity("");
+        }
+    });
 </script>
-
-
 
 <?php
 error_reporting(0);
@@ -151,5 +145,3 @@ if (isset($_POST['submit'])) {
     mysqli_close($conn);
 }
 ?>
-
-

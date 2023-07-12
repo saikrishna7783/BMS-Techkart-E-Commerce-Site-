@@ -12,7 +12,6 @@ if (isset($_POST["Submit"])) {
         header("location:contact.php?error=cause_nothing_entered");
         exit();
     }
-    
 
     passComments($conn, $name, $email, $comment);
 } else {

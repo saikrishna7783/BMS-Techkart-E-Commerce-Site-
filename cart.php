@@ -9,10 +9,6 @@ if (!isset($_SESSION["email_id"])) {
 require_once "header.php";
 ?>
 
-
-
-
-
 <div class="shopping-cart">
   <h1>Shopping Cart</h1>
   <table id="cart">
@@ -27,8 +23,6 @@ require_once "header.php";
 
   <a href="checkout.php"> <button class="checkout-button">Checkout</button></a>
 </div>
-
-
 
 <footer>
   <p>Copyright &copy; BMSTechKart.com </p>
@@ -128,8 +122,6 @@ require_once "header.php";
     updateCart();
   }
 </script>
-
-
 
 </body>
 

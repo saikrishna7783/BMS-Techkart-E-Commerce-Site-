@@ -40,7 +40,7 @@ function createUser($conn, $username, $pwd)
         header("location:register.php?error=invalidemail");
         exit();
     }
-    
+
     $sql = "insert into users(email_id,pwd) values(?,?);";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
@@ -84,9 +84,9 @@ function passComments($conn, $name, $email, $comments)
         }
     }
     if ($error) {
-        header("location:contact.php?error=".$error);
+        header("location:contact.php?error=" . $error);
     } else {
-        header("location:contact.php?success=".$success);
+        header("location:contact.php?success=" . $success);
     }
     exit();
 }

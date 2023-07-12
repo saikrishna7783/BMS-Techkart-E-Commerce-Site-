@@ -2,13 +2,11 @@
 require_once "header.php";
 if (isset($_GET['error']) && $_GET['error'] == 'invalidemail') {
   echo "<script> alert('Invalid email entered'); </script>";
-  
-  } elseif (isset($_GET['success']) && $_GET['success'] == 'messageSent') {
+} elseif (isset($_GET['success']) && $_GET['success'] == 'messageSent') {
   echo "<script> alert('Your message has been sent successfully'); </script>";
-  
-  }
-
+}
 ?>
+
 <head>
   <title>Contact Us</title>
 </head>
@@ -19,10 +17,12 @@ if (isset($_GET['error']) && $_GET['error'] == 'invalidemail') {
   <textarea name="comment" class="feedback-input" placeholder="Comment" required></textarea>
   <input type="Submit" name="Submit" id="Submit" value="SUBMIT" />
 </form>
+
 <footer>
   <p>Copyright &copy; BMSTechKart.com </p>
 </footer>
 </main>
+
 <style>
   @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 

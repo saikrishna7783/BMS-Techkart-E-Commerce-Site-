@@ -1,6 +1,7 @@
 <?php
 require_once "header.php";
 ?>
+
 <section>
     <div class="container">
         <div class="row">
@@ -22,7 +23,7 @@ require_once "header.php";
                             <li> 1.8 kg </li>
                         </ul>
                         </p>
-                        <br> 
+                        <br>
                         <br>
                         <br>
 
@@ -35,9 +36,11 @@ require_once "header.php";
         </div>
     </div>
 </section>
+
 <footer>
     <p>Copyright &copy; BMSTechKart.com </p>
 </footer>
+
 </main>
 <style>
     * {
@@ -79,6 +82,7 @@ require_once "header.php";
         border-radius: 30px;
     }
 </style>
+
 <script>
     const addToCartButton = document.getElementById("add-to-cart");
     addToCartButton.addEventListener("click", function() {
@@ -96,6 +100,7 @@ require_once "header.php";
         alert("Item added to cart!");
     });
 </script>
+
 </body>
 
 </html>

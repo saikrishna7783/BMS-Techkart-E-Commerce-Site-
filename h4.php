@@ -22,7 +22,7 @@ require_once "header.php";
                             <li> bass is excellent.</li>
                         </ul>
                         </p>
-                        <br> 
+                        <br>
                         <br>
                         <br>
 

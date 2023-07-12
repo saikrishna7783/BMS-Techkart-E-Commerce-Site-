@@ -23,10 +23,9 @@ require_once "header.php";
                             <li> Two Thunderbolt / USB 4 ports</li>
                         </ul>
                         </p>
-                        <br> 
                         <br>
                         <br>
-
+                        <br>
                         <br>
                         <button id="add-to-cart">Add to Cart</button>
                     </div>
@@ -36,10 +35,13 @@ require_once "header.php";
         </div>
     </div>
 </section>
+
 <footer>
     <p>Copyright &copy; BMSTechKart.com </p>
 </footer>
+
 </main>
+
 <style>
     * {
         box-sizing: border-box;
@@ -80,6 +82,7 @@ require_once "header.php";
         border-radius: 30px;
     }
 </style>
+
 <script>
     const addToCartButton = document.getElementById("add-to-cart");
     addToCartButton.addEventListener("click", function() {

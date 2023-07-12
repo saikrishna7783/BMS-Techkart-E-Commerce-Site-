@@ -11,6 +11,7 @@ require_once "header.php";
         border-radius: 50%;
     }
 </style>
+
 <section class=" container1 section-3 ">
     <h1 class=" title justify-center item-center flex"> HEADPHONES</h1>
     <div class=" featured">
@@ -75,9 +76,11 @@ require_once "header.php";
         </div>
     </div>
 </section>
+
 <footer>
     <p>Copyright &copy; BMSTechKart.com </p>
 </footer>
+
 </main>
 </body>
 

@@ -22,7 +22,7 @@ require_once "header.php";
                             <li> MS Office 2021 </li>
                         </ul>
                         </p>
-                        <br> 
+                        <br>
                         <br>
                         <br>
 
@@ -35,10 +35,13 @@ require_once "header.php";
         </div>
     </div>
 </section>
+
 <footer>
     <p>Copyright &copy; BMSTechKart.com </p>
 </footer>
+
 </main>
+
 <style>
     * {
         box-sizing: border-box;
@@ -79,6 +82,7 @@ require_once "header.php";
         border-radius: 30px;
     }
 </style>
+
 <script>
     const addToCartButton = document.getElementById("add-to-cart");
     addToCartButton.addEventListener("click", function() {
@@ -96,6 +100,7 @@ require_once "header.php";
         alert("Item added to cart!");
     });
 </script>
+
 </body>
 
 </html>

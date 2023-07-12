@@ -7,13 +7,13 @@ if (isset($_GET['error'])) {
 
 if (isset($_GET["error"])) {
     if ($_GET["error"] == "none") {
-      echo "<script>alert('You have successfully signed up');</script>";
+        echo "<script>alert('You have successfully signed up');</script>";
     }
 }
 ?>
 
 <head>
-  <title>Sign in</title>
+    <title>Sign in</title>
 </head>
 
 <form action="loginaction.php" method="post">
@@ -115,9 +115,11 @@ if (isset($_GET["error"])) {
         }
     </style>
 </form>
+
 <footer>
     <p>Copyright &copy; BMSTechKart.com </p>
 </footer>
+
 </body>
 
 </html>

@@ -41,9 +41,6 @@ session_start();
                 if (isset($_GET["error"]) && $_GET["error"] == "none") {
                     echo "<p>Successful Signin!</p>";
                 }
-                ?>
-
-                <?php
 
                 if (isset($_SESSION["email_id"])) {
                     echo "<li><a href='cart.php'><i class='fa-sharp fa-solid fa-cart-shopping' id='cart_icon'></i></a></li>";
