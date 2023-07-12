@@ -1,10 +1,12 @@
 <?php
 require_once "header.php";
 if (isset($_GET['error']) && $_GET['error'] == 'invalidemail') {
-  echo "<center> Invalid email address entered. </center>";
-} elseif (isset($_GET['success']) && $_GET['success'] == 'messageSent') {
-  echo "<center> Your message has been sent successfully. </center>";
-}
+  echo "<script> alert('Invalid email entered'); </script>";
+  
+  } elseif (isset($_GET['success']) && $_GET['success'] == 'messageSent') {
+  echo "<script> alert('Your message has been sent successfully'); </script>";
+  
+  }
 
 ?>
 <head>
