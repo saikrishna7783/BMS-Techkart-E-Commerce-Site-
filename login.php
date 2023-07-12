@@ -4,6 +4,12 @@ if (isset($_GET['error'])) {
     $error = $_GET['error'];
     echo '<center>' . $error . '</center>';
 }
+
+if (isset($_GET["error"])) {
+    if ($_GET["error"] == "none") {
+      echo "<script>alert('You have successfully signed up');</script>";
+    }
+}
 ?>
 
 <head>
@@ -33,9 +39,6 @@ if (isset($_GET['error'])) {
     <br>
     <br>
     <div class="container">
-        <span class="forgotpassword">
-            <a href="#">Forgot password?</a>
-        </span>
         <span class="createaccount">
             <a href="register.php">Create an account</a>
         </span>

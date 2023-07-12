@@ -1,7 +1,7 @@
 <?php
 require_once "header.php";
 if ($_GET["error"] == "invalidemail"){
-  echo '<center> Invalid email address!</center>';
+  echo "<script> alert('Invalid email address');</script>";
 }
 ?>
 <head>
@@ -22,7 +22,8 @@ if ($_GET["error"] == "invalidemail"){
         } else if ($_GET["error"] == "userexists") {
           echo "Account already exists!";
         } else if ($_GET["error"] == "none") {
-          echo "<center>You have successfully signed up!</center>";
+          $error = "none";
+        header("location:login.php?error=".$error);
         }
       }
       
