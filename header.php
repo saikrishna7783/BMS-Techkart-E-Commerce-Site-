@@ -14,6 +14,7 @@ session_start();
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="img/logo.jpg" style="border-radius: 5;">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
@@ -37,8 +38,8 @@ session_start();
                     echo "<li><a href='login.php'>LOGIN</a></li>";
                 }
 
-                if ($_GET["error"] == "none") {
-                    echo "<p>Successful Signin!<p>";
+                if (isset($_GET["error"]) && $_GET["error"] == "none") {
+                    echo "<p>Successful Signin!</p>";
                 }
                 ?>
 

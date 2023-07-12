@@ -4,6 +4,9 @@ if ($_GET["error"] == "invalidemail"){
   echo '<center> Invalid email address!</center>';
 }
 ?>
+<head>
+  <title>Register</title>
+</head>
   <form action="registeraction.php" method="post">
 
     <div class="profilepic">

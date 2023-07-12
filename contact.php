@@ -7,6 +7,9 @@ if (isset($_GET['error']) && $_GET['error'] == 'invalidemail') {
 }
 
 ?>
+<head>
+  <title>Contact Us</title>
+</head>
 
 <form action="contactaction.php" method="post">
   <input name="name" type="text" class="feedback-input" placeholder="Name" required />

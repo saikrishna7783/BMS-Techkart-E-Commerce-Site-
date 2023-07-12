@@ -5,6 +5,11 @@ if (isset($_GET['error'])) {
     echo '<center>' . $error . '</center>';
 }
 ?>
+
+<head>
+  <title>Sign in</title>
+</head>
+
 <form action="loginaction.php" method="post">
 
     <div class="profilepic">

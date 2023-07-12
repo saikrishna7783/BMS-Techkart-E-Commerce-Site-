@@ -20,12 +20,12 @@ require_once "header.php";
     <h1 class=" title justify-center item-center flex">CATEGORIES</h1>
     <div class=" space-evenly categories">
       <div class=" hover img-1">
-        <a style="color: black;" href="headphones.php"> <img src="img/3.avif" alt="">
+        <a style="color: black;" href="headphones.php"> <img src="img/3.jpg">
           <h4 class="center"> HEADPHONES</h4>
         </a>
       </div>
       <div class="hover img-2">
-        <a style="color: black;" href="phones.php"><img src="img/6.avif" alt="">
+        <a style="color: black;" href="phones.php"><img src="img/6.jpg">
           <h4> PHONES</h4>
         </a>
       </div>

@@ -1,7 +1,9 @@
 <?php
 require_once "header.php";
 ?>
-
+<head>
+  <title>About Us</title>
+</head>
 <!----About section start---->
 <section class="about">
   <div class="main">
